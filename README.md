@@ -1,37 +1,30 @@
 # UPSC Preparation Chatbot (Python CLI)
 
-A simple command-line chatbot built using Python to assist users with basic UPSC preparation queries.
+A simple command-line chatbot which was built using Python to assist users with basic UPSC preparation queries.
 
 ---
 
 ## Project Overview
 
-This project is a **UPSC Information Chatbot** developed as part of a **2nd semester AI/ML project**. It helps users by answering commonly asked questions about:
+This project is a **UPSC Information Chatbot** created as part of a **2nd semester AI/ML project**. It helps users by answering commonly asked questions about:
 
 - Exam pattern  
 - Subjects  
 - Recommended books  
 - Current affairs  
 
-The chatbot works using **predefined keywords** and responds instantly in a conversational format.
+This chatbot works using **predefined keywords** and gives answers in a conversational format.
 
 ---
 
 ## Features
 
 - **Interactive Chatbot** – Ask questions related to UPSC preparation  
-- **Predefined Responses** – Covers common topics like exam pattern & books  
-- **Help Command** – Displays available topics  
+- **Predefined Responses** – It covers common topics like exam pattern & books  
+- **Help Command** – Displays topics on which information is available  
 - **Exit Option** – End chat anytime  
-- **Keyword Matching** – Identifies user queries efficiently  
+- **Keyword Matching** – Identifies user queries  by picking the keywords 
 - **Simple Design** – Easy to understand and modify  
-
----
-
-## Tech Stack
-
-- **Language:** Python  
-- **Interface:** Command Line (CLI)  
 
 ---
 
