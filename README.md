@@ -50,12 +50,14 @@ The chatbot works using **predefined keywords** and responds instantly in a conv
 
 2. **Open terminal/command prompt and go to the project folder:**
    ```bash
-   -cd UPSC-Chatbot-Project
+   cd UPSC-Chatbot-Project
   
 3. **Run the Python file:**
-  -python "UPSC chatbot code.py"
+   python "UPSC chatbot code.py"
    
 4. **Start interacting with the chatbot and try different questions.**
+
+---
 
 ## Future Improvements
 - Adding more topics and detailed answers
@@ -63,6 +65,8 @@ The chatbot works using **predefined keywords** and responds instantly in a conv
 - Adding voice input/output
 - Creating a GUI instead of command line
 - Connecting to APIs for live current affairs update
+
+---
 
 ## Note
 - **This is a beginner-level project made for learning purposes, so the chatbot has limited understanding and works only on predefined inputs.
