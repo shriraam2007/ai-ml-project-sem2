@@ -1,49 +1,66 @@
-# ai-ml-project-sem2
-Project for second semester on creating a UPSC information chatbot.
-UPSC-Chatbot-Project
+# UPSC Preparation Chatbot (Python CLI)
 
-UPSC Preparation Chatbot (Python CLI)
+A simple command-line chatbot built using Python to assist users with basic UPSC preparation queries.
 
-1. Description
+---
 
-This project is a simple chatbot that runs in the command line using Python. It is designed to help users with basic information related to UPSC preparation by answering common queries such as exam pattern, subjects, books, and current affairs.
+## Project Overview
 
-The chatbot interacts with the user in a conversational format. It responds to predefined keywords and provides relevant information instantly. The program was created as part of a second semester project to practice core programming concepts like user input handling, loops, conditionals, and dictionary-based data storage.
+This project is a **UPSC Information Chatbot** developed as part of a **2nd semester AI/ML project**. It helps users by answering commonly asked questions about:
 
-2. Features
-Interactive chatbot: Users can ask questions related to UPSC preparation.
-Predefined responses: Answers common queries like exam pattern, subjects, and books.
-Help command: Displays a list of available topics the user can ask about.
-Exit option: Allows the user to end the conversation anytime.
-Keyword matching: Identifies user queries based on keywords.
-Simple and clean design: Easy to understand and modify.
-3. How to Run the Project
-Prerequisites
-Python 3 must be installed on your computer.
-Steps
+- Exam pattern  
+- Subjects  
+- Recommended books  
+- Current affairs  
 
-Clone the repository
+The chatbot works using **predefined keywords** and responds instantly in a conversational format.
 
-git clone https://github.com/shriraam2007/UPSC-Chatbot-Project.git
-Or download the ZIP file and extract it
+---
 
-Navigate to the project folder
+## Features
 
-cd UPSC-Chatbot-Project
+- **Interactive Chatbot** – Ask questions related to UPSC preparation  
+- **Predefined Responses** – Covers common topics like exam pattern & books  
+- **Help Command** – Displays available topics  
+- **Exit Option** – End chat anytime  
+- **Keyword Matching** – Identifies user queries efficiently  
+- **Simple Design** – Easy to understand and modify  
 
-Run the chatbot program
+---
 
-python UPSC chatbot code.py
-Start interacting with the chatbot
+## Tech Stack
 
-Follow the on-screen instructions to ask questions about UPSC.
+- **Language:** Python  
+- **Interface:** Command Line (CLI)  
 
-4. Future Enhancements
+---
 
-The chatbot can be improved with additional features, such as:
+## How to Run the Project
 
-Expanded knowledge base: Add more UPSC-related topics and detailed answers.
-Natural Language Processing (NLP): Improve understanding of user queries.
-Voice interaction: Enable speech input and output.
-Graphical User Interface (GUI): Build a user-friendly interface.
-Integration with APIs: Fetch real-time current affairs updates
+### Prerequisites
+- Python 3 installed on your system  
+
+### Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/shriraam2007/UPSC-Chatbot-Project.git
+
+   Or download the ZIP file and extract it.
+
+2. **Open terminal/command prompt and go to the project folder:
+   ```bash
+  cd UPSC-Chatbot-Project
+3. **Run the Python file:
+  -python "UPSC chatbot code.py"
+4. **Start interacting with the chatbot and try different questions.
+
+## Future Improvements
+- **Adding more topics and detailed answers
+- **Using NLP to better understand user input
+- **Adding voice input/output
+- **Creating a GUI instead of command line
+- **Connecting to APIs for live current affairs update
+
+## Note
+- **This is a beginner-level project made for learning purposes, so the chatbot has limited understanding and works only on predefined inputs.
