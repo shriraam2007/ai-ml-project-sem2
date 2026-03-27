@@ -23,7 +23,7 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 - **Predefined Responses** – It covers common topics like exam pattern & books  
 - **Help Command** – Displays topics on which information is available  
 - **Exit Option** – End chat anytime  
-- **Keyword Matching** – Identifies user queries  by picking the keywords 
+- **Keyword Matching** – Identifies user queries by matching the keywords 
 - **Simple Design** – Easy to understand and modify  
 
 ---
@@ -48,8 +48,8 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 3. **Run the Python file:**
    ```bash
    python "UPSC chatbot code.py"
-    ```
-5. **Start interacting with the chatbot and try different questions.**
+   ```
+4. **Start interacting with the chatbot and try different questions.**
 
 ---
 
@@ -58,7 +58,7 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 - Using NLP to better understand user input
 - Adding voice input/output
 - Creating a GUI instead of command line
-- Connecting to APIs for live current affairs update
+- Connecting to APIs for live current affairs updates
 
 ---
 
