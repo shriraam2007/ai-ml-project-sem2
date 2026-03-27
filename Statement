@@ -1,78 +1,111 @@
-Statement.md
+# Project Statement
 
-Project Title: UPSC Preparation Chatbot
-Course: Fundamentals of AI and ML
+## Project Title
+**UPSC Preparation Chatbot**
 
-1. Purpose or Goal of the Project
+## Course
+Fundamentals of AI and ML
 
-The goal of this project was to develop a simple chatbot that runs in the command line using Python. The chatbot is designed to assist users by providing basic information related to UPSC preparation, such as exam pattern, subjects, recommended books, and current affairs.
+---
 
-It interacts with the user in a conversational manner, responds to queries based on predefined keywords, and provides instant answers.
+## 1. Purpose of the Project
 
-2. Requirements
+The goal of this project was to develop a simple chatbot using Python that runs in the command line. The chatbot is designed to help users by providing basic information related to UPSC preparation, such as exam pattern, subjects, recommended books, and current affairs.
 
-The task was to design an interactive chatbot program that uses basic programming concepts such as:
+It interacts with users in a conversational way and responds to queries using predefined keywords.
 
-Handling user input
-Using dictionaries for storing responses
-Implementing loops and conditional logic
-Performing keyword matching
-Structuring code into functions
-3. System Design
-Data Structure:
-A dictionary is used to store predefined responses. Each key represents a keyword (such as "upsc", "prelims", "books"), and the value contains the corresponding response.
-User Interaction:
+---
+
+## 2. Requirements
+
+The chatbot was built using basic programming concepts, including:
+
+- Handling user input  
+- Using dictionaries to store responses  
+- Implementing loops and conditional logic  
+- Performing keyword matching  
+- Structuring code using functions  
+
+---
+
+## 3. System Design
+
+### Data Structure
+A dictionary is used to store predefined responses.  
+- **Key** → keyword (e.g., "upsc", "prelims", "books")  
+- **Value** → corresponding response  
+
+### User Interaction
 The chatbot continuously takes user input and checks for matching keywords to generate appropriate responses.
-4. Top-Down Design / Modularization
 
-To ensure proper design, the program was structured into functions:
+---
 
-chatbot():
+## 4. Top-Down Design / Modularization
+
+The program is structured into functions for better clarity and maintainability:
+
+### `chatbot()`
+
 This is the main function and entry point of the program. It handles:
-Displaying the welcome message
-Managing the conversation loop
-Processing user input
-Matching keywords with responses
-Handling special commands like “help” and “exit”
 
-This modular approach keeps the logic organized and easy to maintain.
+- Displaying the welcome message  
+- Managing the conversation loop  
+- Processing user input  
+- Matching keywords with responses  
+- Handling special commands like `help` and `exit`  
 
-5. Algorithm Development
-Program Flow:
-Display a welcome message for the chatbot.
-Prompt the user to enter a query.
-Convert the input to lowercase for consistency.
-Check if the user entered:
-“exit” → terminate the program
-“help” → display available topics
-greetings like “hi”, “hello” → respond accordingly
-Search for keywords in the user input.
-If a match is found, display the corresponding response.
-If no match is found, display an error message.
-Repeat the process until the user exits.
-6. Implementation
-Language: Python 3
-Input Handling: User input is converted to lowercase to ensure consistent matching of keywords regardless of case.
-Logic Used: Dictionary lookup, loops, and conditional statements are used to control chatbot behavior.
-7. Testing and Refinement
+---
 
-The chatbot was tested manually to ensure correct functionality:
+## 5. Algorithm Development
 
-User Input: Tested with different inputs including valid keywords, greetings, and random text.
-Keyword Matching: Verified that correct responses are returned for matching inputs.
-Help Command: Ensured all available topics are displayed correctly.
-Exit Condition: Confirmed that typing “exit” terminates the chatbot.
-Refinement: Improved responses and added user-friendly messages for better interaction.
-8. Conclusion
+### Program Flow
 
-This project successfully demonstrates the use of basic Python programming concepts to build an interactive chatbot. The chatbot is simple, user-friendly, and effectively provides useful information related to UPSC preparation.
+1. Display a welcome message  
+2. Prompt the user to enter a query  
+3. Convert input to lowercase for consistency  
+4. Check user input:
+   - `exit` → terminate the program  
+   - `help` → display available topics  
+   - greetings like `hi`, `hello` → respond accordingly  
+5. Search for keywords in the input  
+6. If a match is found → display response  
+7. If no match is found → show error message  
+8. Repeat until user exits  
 
-9. Future Enhancements
+---
 
-Potential improvements include:
+## 6. Implementation
 
-Expanding the knowledge base with more topics
-Implementing Natural Language Processing (NLP) for better understanding
-Adding voice-based interaction
-Creating a graphical user interface (GUI)
-Integrating real-time data sources for current affairs updates
+- **Language:** Python 3  
+- **Input Handling:** Case-insensitive using lowercase conversion  
+- **Logic Used:** Dictionary lookup, loops, and conditional statements  
+
+---
+
+## 7. Testing and Refinement
+
+The chatbot was tested manually for different scenarios:
+
+- Different user inputs (keywords, greetings, random text)  
+- Keyword matching accuracy  
+- Help command functionality  
+- Exit condition  
+
+**Refinement:**  
+Responses were improved and made more user-friendly for better interaction.
+
+---
+
+## 8. Conclusion
+
+This project demonstrates how basic Python concepts can be used to build a simple interactive chatbot. The chatbot is easy to use and provides useful UPSC-related information.
+
+---
+
+## 9. Future Enhancements
+
+- Expand the knowledge base  
+- Implement Natural Language Processing (NLP)  
+- Add voice interaction  
+- Develop a GUI  
+- Integrate real-time current affairs APIs  
