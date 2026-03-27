@@ -19,7 +19,7 @@ def chatbot():
         user = input("You: ").lower()
 
         if user == "exit":
-            print("Chatbot: Goodbye! Best of luck for your UPSC preparation 🇮🇳")
+            print("Chatbot: Goodbye! Best of luck for your UPSC preparation ")
             break
 
         elif user == "help":
