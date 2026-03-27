@@ -1,6 +1,6 @@
 
 def chatbot():
-    print("🤖 UPSC Chatbot")
+    print("UPSC Chatbot")
     print("Ask me anything about UPSC (type 'help' to see options, 'exit' to quit)\n")
 
     responses = {
