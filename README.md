@@ -37,13 +37,13 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/shriraam2007/UPSC-Chatbot-Project.git
+   git clone https://github.com/shriraam2007/ai-ml-project-sem2.git
    ```
    Or download the ZIP file and extract it.
 
 2. **Open terminal/command prompt and go to the project folder:**
    ```bash
-   cd UPSC-Chatbot-Project
+   cd ai-ml-project-sem2
    ```
 3. **Run the Python file:**
    ```bash
