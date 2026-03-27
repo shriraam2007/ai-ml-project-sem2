@@ -48,12 +48,12 @@ The chatbot works using **predefined keywords** and responds instantly in a conv
 
    Or download the ZIP file and extract it.
 
-2. **Open terminal/command prompt and go to the project folder:
+2. **Open terminal/command prompt and go to the project folder:**
    ```bash
   cd UPSC-Chatbot-Project
-3. **Run the Python file:
+3. **Run the Python file:**
   -python "UPSC chatbot code.py"
-4. **Start interacting with the chatbot and try different questions.
+4. **Start interacting with the chatbot and try different questions.**
 
 ## Future Improvements
 - **Adding more topics and detailed answers
