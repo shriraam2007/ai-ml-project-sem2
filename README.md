@@ -43,7 +43,7 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 
 2. **Open terminal/command prompt and go to the project folder:**
    ```bash
-   cd ai-ml-project-sem2
+   cd ai-ml-project-sem2-main
    ```
 3. **Run the Python file:**
    ```bash
