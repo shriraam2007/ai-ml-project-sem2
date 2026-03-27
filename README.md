@@ -38,17 +38,18 @@ This chatbot works using **predefined keywords** and gives answers in a conversa
 1. **Clone the repository**
    ```bash
    git clone https://github.com/shriraam2007/UPSC-Chatbot-Project.git
-
+   ```
    Or download the ZIP file and extract it.
 
 2. **Open terminal/command prompt and go to the project folder:**
    ```bash
    cd UPSC-Chatbot-Project
-  
+   ```
 3. **Run the Python file:**
+   ```bash
    python "UPSC chatbot code.py"
-   
-4. **Start interacting with the chatbot and try different questions.**
+    ```
+5. **Start interacting with the chatbot and try different questions.**
 
 ---
 
