@@ -69,4 +69,4 @@ The chatbot works using **predefined keywords** and responds instantly in a conv
 ---
 
 ## Note
-- **This is a beginner-level project made for learning purposes, so the chatbot has limited understanding and works only on predefined inputs.
+- This is a beginner-level project made for learning purposes, so the chatbot has limited understanding and works only on predefined inputs.
